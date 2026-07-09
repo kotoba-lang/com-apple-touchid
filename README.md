@@ -22,6 +22,11 @@ for tests and demos with no device and no entitlements.
 Sibling of [`kotoba-lang/com-apple-faceid`](https://github.com/kotoba-lang/com-apple-faceid) — same shape, distinct
 `LABiometryType`.
 
+See [`kotoba-lang/touchid`](https://github.com/kotoba-lang/touchid) for the
+result-shape substrate layer that composes this with other auth factors
+(host-port pattern, no network/crypto here either, but a different
+abstraction level).
+
 ## Usage
 
 ```clojure
