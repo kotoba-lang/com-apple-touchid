@@ -13,8 +13,8 @@
 
   Sibling of `kotoba-lang/com-apple-faceid` — same shape, distinct
   `LABiometryType`."
-  #?(:clj (:require [clojure.string :as str])
-     :cljs (:require [clojure.string :as str])))
+  #?(:clj (:require [kotoba.lang.text :as str])
+     :cljs (:require [kotoba.lang.text :as str])))
 
 (defprotocol ITouchID
   "Touch ID host capability."
