@@ -50,5 +50,5 @@ passes that implementation everywhere `mock-touchid` appears above.
 ## Test
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
