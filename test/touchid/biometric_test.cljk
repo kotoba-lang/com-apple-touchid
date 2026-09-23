@@ -1,5 +1,5 @@
 (ns touchid.biometric-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [touchid.biometric :as bio]))
 
 (deftest availability-shape-test
